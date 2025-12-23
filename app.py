@@ -107,7 +107,7 @@ def calculate_result(res_dict):
   return sentiment_value
 @st.cache_resource
 def load_pipeline():
-    return pipeline("text-classification", model="kaczquszka/fine-tuned-on-1000-answers-distilbert-base-uncased", top_k=3)
+    return pipeline("text-classification", model="kaczquszka/fine-tuned-on-2000-answers-distilbert-base-uncased", top_k=3)
 
 def getPrediction():
     pipe = load_pipeline()
