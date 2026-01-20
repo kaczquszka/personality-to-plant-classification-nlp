@@ -38,12 +38,6 @@ Along with the verdict user also gets to see the photo of the plant along with D
 The fine tuning of DistilBert was performed using dataset of short answers that were obtained from responses to forms. To make the dataset bigger, similar responses were then added.
  <br /><br/>
 ### k-Nearest Neighbours
-The model was trained on a dataset from kaggle :. Before training the model, appropariate data cleansing was performed. (the code can be seen in file 'data_cleansing.py' in catalog 'scripts') <br /> <br />
-**Data cleansing steps:**<br/>
-Droping duplicates of the same plant entries <br />
-Fixing typos in column naming <br />
-Keeping only one row if many entries have the same trait values in every column <br />
-For each column, create a separate dictionary that sorts all values in order from least to most (eg. from rarest watering frequency to the most often one) <br />
-Map each column, so each value has an assigned numerical value form -1 to 1 <br />
- <br />
+The model was trained on a dataset from kaggle:https://www.kaggle.com/datasets/aribashafaqat/plants-growth-and-care-recommendations. Before training the model, appropariate data cleansing was performed. (the code can be seen in file 'data_cleansing.py' in catalog 'scripts') <br /> <br />
+
 After performing the data cleansing I used knn model available in sklearn python library with number of neighbours set to one to always obtain only one result, I chose minkowski method with p = 4 as I wanted to penalize large differencess between traits to prevent significant mismatching of traits. The goal is to get result in which each of the traits matches user answers. <br />
