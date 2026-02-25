@@ -15,14 +15,6 @@ Each of the groups also correspond to specific human traits: <br /><br/>
 **Sunlight** - how much does one like sunny and hot weather.<br />
 **Watering** - how much does one like water related activities such as swimming, etc. <br />
 **Fertilization** - how good and balanced is ones diet.<br />
-
-Plant Trait,Human Equivalent,Example Question
-Growth,Learning agility & curiosity,"""How eager are you to learn new technologies?"""
-Soil,Social orientation (Extroversion),"""How do you feel in large crowds or social gatherings?"""
-Sunlight,Affinity for warmth/outdoor environments,"""How much do you enjoy sunny and hot weather?"""
-Watering,Engagement with water-based activities,"""Do you enjoy swimming or being near the ocean?"""
-Fertilizer,Dietary habits and nutritional balance,"""How balanced and consistent is your daily diet?"""
-
  <br />
 Via five question form, user is asked to answer one question from each group. The questions are created in a way that forces user to explain their attitude or liking towards the conserned topic, eg. Trait: Growth, Question: "How eager are you to learn new technologies?".
  <br /><br/>
@@ -35,7 +27,7 @@ After the appropariate plant is selected, the results are displayed to user.
 <br/>
 Along with the verdict user also gets to see the photo of the plant along with DataFrame showing the results of sentimnet analysis along with apropariate question, answer and trait of the plant it concerns. The app also displays first paragraph of wikipedia page, briefly describing the obtained plant.
  <br /> <br />
- *Example results:*<br/>
+ **Example results:**<br/>
  <img width="560" height="606" alt="image" src="https://github.com/user-attachments/assets/0ca9a41f-ca26-45b6-abbe-dd8ff373894e" /> <br />
  <img width="440" height="460" alt="image" src="https://github.com/user-attachments/assets/a72ede71-7674-4ac6-bee3-57ef9b7e7ac0" />
 
