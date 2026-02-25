@@ -15,6 +15,14 @@ Each of the groups also correspond to specific human traits: <br /><br/>
 **Sunlight** - how much does one like sunny and hot weather.<br />
 **Watering** - how much does one like water related activities such as swimming, etc. <br />
 **Fertilization** - how good and balanced is ones diet.<br />
+
+Plant Trait,Human Equivalent,Example Question
+Growth,Learning agility & curiosity,"""How eager are you to learn new technologies?"""
+Soil,Social orientation (Extroversion),"""How do you feel in large crowds or social gatherings?"""
+Sunlight,Affinity for warmth/outdoor environments,"""How much do you enjoy sunny and hot weather?"""
+Watering,Engagement with water-based activities,"""Do you enjoy swimming or being near the ocean?"""
+Fertilizer,Dietary habits and nutritional balance,"""How balanced and consistent is your daily diet?"""
+
  <br />
 Via five question form, user is asked to answer one question from each group. The questions are created in a way that forces user to explain their attitude or liking towards the conserned topic, eg. Trait: Growth, Question: "How eager are you to learn new technologies?".
  <br /><br/>
