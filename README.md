@@ -43,5 +43,5 @@ The model was trained on a dataset from kaggle: https://www.kaggle.com/datasets/
 
 After performing the data cleansing I used knn model available in sklearn python library with number of neighbours set to one to always obtain only one result, I chose minkowski method with p = 4 as I wanted to penalize large differencess between traits to prevent significant mismatching of traits as the goal is to get result in which each of the traits matches all user answers best. <br />
 <br><br>
-###
+# Contribution
 **Contribute to the project by answering short, 7 questions form: https://forms.office.com/e/rstjrBe3Cy**
