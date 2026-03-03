@@ -7,8 +7,7 @@ df = pd.read_csv("datasets/plants.csv", encoding = "latin1")
 df = df.drop_duplicates(subset=df.columns[0], keep='first')
 
 #fix spelling mistake in watering column
-#TO DO:
-#wszystko do malych liter i potem capital pierwsze?
+
 df.loc[df["Watering"] == "Regular watering", "Watering"] = "Regular Watering"
 
 #drop duplicates of the same values in every column (to avoid having plants with ident ical attributes)
