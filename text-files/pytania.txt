@@ -39,3 +39,69 @@ question about the weather -> watering
 3. Do you think that watersports are a hobby for you? -> watering
 4. ?????
 
+Growth :
+1. Would you consider yourself a fast learner? Why?
+2. How eager are u to learn new technologies?
+3. Do you have difficulties with acquiring new knowlage? If so, why?
+4. How would you feel in a situation where you have to learn new skill in short time?
+Soil:
+1. Is it easy for you to make new friends?
+2. How do u feel in stituations when you have to talk to new people?
+3. How do you feel when you have to make a phone call to a person you haven't yet talked to?
+4. How would you describe your attitude towards laws and regulations, do you always follow them, no matter what?
+Do u consider yourself the live of a party?
+Sunlight:
+1. How do you feel about hot summer days?
+2. Would you be happy about spending a month in tropics?
+3. Do you prefer hot wather over cold one?
+4. How do you feel during summer when it comes to temperatures?
+
+Watering:
+1. How do you feel about water sports?
+2. Do sea crouses sound like a fun activity to you?
+3. How do you feel about swimming in warm mediterrenian sea?
+4. Do you fancy swimming in pools or natural water?
+5. When you are at vacation, do you use pools or go swimming if possible? 
+
+Fertilization:
+1. Do you consider your diet healthy and good for you?
+2. How do u feel about bio products?
+3. Do you take care of your health?
+4. Can you imagine your life without any fast-food meals?
+
+
+questions = {
+    "Growth": [
+        "Would you consider yourself a fast learner? Why?",
+        "How eager are you to learn new technologies?",
+        "Do you have difficulties acquiring new knowledge? If so, why?",
+        "How would you feel in a situation where you have to learn a new skill in a short time?"
+    ],
+    "Soil": [
+        "Is it easy for you to make new friends?",
+        "How do you feel in situations where you have to talk to new people?",
+        "How do you feel when you have to make a phone call to a person you haven't talked to yet?",
+        "How would you describe your attitude toward laws and regulations? Do you always follow them, no matter what?",
+        "Do you consider yourself the life of the party?"
+    ],
+    "Sunlight": [
+        "How do you feel about hot summer days?",
+        "Would you be happy spending a month in the tropics?",
+        "Do you prefer hot weather over cold one?",
+        "How do you feel during summer when it comes to temperatures?"
+    ],
+    "Watering": [
+        "How do you feel about water sports?",
+        "Do sea cruises sound like a fun activity to you?",
+        "How do you feel about swimming in the warm Mediterranean Sea?",
+        "How do you feel about swimming in pools or any natural bodies of water?",
+        "When you are on vacation, do you use pools or go swimming if possible?"
+    ],
+    "Fertilization": [
+        "Do you consider your diet healthy and good for you?",
+        "How do you feel about bio products?",
+        "Do you take care of your health?",
+        "Can you imagine your life without any fast-food meals?"
+    ]
+}
+
